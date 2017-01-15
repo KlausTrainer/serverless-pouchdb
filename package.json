@@ -1,0 +1,31 @@
+{
+  "name": "serverless-pouchdb",
+  "description": "going serverless with PouchDB",
+  "version": "1.0.0",
+  "homepage": "https://github.com/KlausTrainer/serverless-pouchdb",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Klaus Trainer",
+    "email": "klaus_trainer@apache.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KlausTrainer/serverless-pouchdb.git"
+  },
+  "engines": {
+    "node": ">= 4.3.0"
+  },
+  "dependencies": {
+    "aws-serverless-express": "^1.2.0",
+    "dynamodbdown": "^2.1.4",
+    "express": "^4.10.4",
+    "express-pouchdb": "^2.1.4",
+    "pouchdb-adapter-leveldb-core": "^6.1.1",
+    "pouchdb-core": "^6.1.1",
+    "pouchdb-mapreduce": "^6.1.1",
+    "pouchdb-replication": "^6.1.1"
+  },
+  "devDependencies": {
+    "corser": "^2.0.1"
+  }
+}

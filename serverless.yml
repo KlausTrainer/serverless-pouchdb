@@ -1,0 +1,15 @@
+service: serverless-pouchdb
+
+provider:
+  name: aws
+  region: eu-central-1
+  runtime: nodejs4.3
+  memorySize: 256
+  timeout: 30
+
+functions:
+  api:
+    handler: handler.api
+    events:
+      - http: ANY /
+      - http: ANY {proxy+}
