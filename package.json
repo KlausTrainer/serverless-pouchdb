@@ -18,14 +18,12 @@
   "dependencies": {
     "aws-serverless-express": "^1.2.0",
     "dynamodbdown": "^2.1.4",
+    "corser": "^2.0.1",
     "express": "^4.10.4",
     "express-pouchdb": "^2.1.4",
     "pouchdb-adapter-leveldb-core": "^6.1.1",
     "pouchdb-core": "^6.1.1",
     "pouchdb-mapreduce": "^6.1.1",
     "pouchdb-replication": "^6.1.1"
-  },
-  "devDependencies": {
-    "corser": "^2.0.1"
   }
 }
